@@ -10,8 +10,8 @@ App.config(function ($routeProvider) {
                 controller: 'TavaraController',
                 templateUrl: 'views/tavarat.html'
             })
-            .when('/tavarat/1', {
-                controller: 'TavaraController',
+            .when('/tavarat/:idn', {
+                controller: 'TavaranController',
                 templateUrl: 'views/tavara.html'
             })
             .when('/ateriat', {
